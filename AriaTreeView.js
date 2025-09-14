@@ -253,7 +253,9 @@ class AriaTreeView {
      */
     _onSelectionChange(e) {
         // Dispatch a custom event with the new selectedIndex or selected item info
-        this.dispatchEvent(new CustomEvent('selectionchange', {
+        // The reason for the treeviewselectionchange is because if the event is named
+        // "selectionchange", the _onSelectionChange() gets called in an infinite loop.
+        this.dispatchEvent(new CustomEvent('treeviewselectionchange', {
             detail: { selectedIndex: this.selectedIndex, selectedItem: this.selectedItem },
             bubbles: true,
             composed: true
