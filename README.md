@@ -41,7 +41,7 @@ Note that no knowledge of LDAP (Lightweight Directory Access Protocol) is requir
 
 The `tree` role is the brain of the tree view. The `tree` role accepts both `treeitem` and `group` which the `group` role can have an additional `treeitem` role.
 
-For more information about the ARIA Tree View, visit [https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/tree_role](ARIA Tree View from MDN) and to view the demo of the tree view, the W3C has made a couple of [https://www.w3.org/WAI/ARIA/apg/patterns/treeview/](tree view patterns) that should help you get started, but the AriaTreeView class should be of help to get web developers started in constructing a tree view.
+For more information about the ARIA Tree View, visit [ARIA Tree View from MDN](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/tree_role) and to view the demo of the tree view, the W3C has made a couple of [tree view patterns](https://www.w3.org/WAI/ARIA/apg/patterns/treeview/) that should help you get started, but the AriaTreeView class should be of help to get web developers started in constructing a tree view.
 
 ## Why `AriaTreeView` Class is Needed?
 
